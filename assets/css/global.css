@@ -1,0 +1,24 @@
+main {
+  padding: 30px 0;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+ }
+ h1 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+ }
+ h2 {
+  font-size: 1.2em;
+  color: darkgray;
+  margin-bottom: 25px;
+ }
+ img {
+  width: inherit;
+  margin-bottom: 30px;
+ }
+ p {
+  margin-bottom: 40px;
+  text-align: left;
+ }
