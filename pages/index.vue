@@ -2,8 +2,8 @@
   <!-- 인트로 페이지 -->
   <main v-if="page === 0">
     <img src="../static/MBTI.png" alt="MBTI MAIN">
-    <h1>MBTI 확인하기</h1>
-    <h2>나의 MBTI 는 어떤 유형일까요?</h2>
+    <h1>Everywher Person </h1>
+    <h2>润吗? 润哪？</h2>
     <Button text="Test Start" :clickEvent="startTest"/>
   </main>
   <!-- 질문 페이지 -->

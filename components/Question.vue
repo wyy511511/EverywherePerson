@@ -32,7 +32,8 @@ export default {
   },
   methods: {
     clickButton(item){
-      this.$store.dispatch('clickButton', item.value);
+      // this.$store.dispatch('clickButton', item.value);
+      this.$store.dispatch("clickAnswer", item.value);
       // 마지막 질문일때만 라우터 이동
       if(this.page === this.$store.state.questions.length){
 
